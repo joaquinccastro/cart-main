@@ -19,7 +19,7 @@ $shoppingCartItems = $shoppingCart->getAllItems();
 </head>
 <body>
 
-<h1>Welcome <?php echo $customer->getName() ?>!</h1>
+<h1>Welcome! <?php echo $customer->getName() ?>!</h1>
 <h2>Shopping Cart</h2>
 <h4>
     <a href="products-list.php">Shop More Products</a>
